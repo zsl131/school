@@ -17,5 +17,6 @@ context:
   listener:
     classes: com.zslin.start.ApplicationStart
 
-wsdl: http://192.168.1.106:8888/platform/sws?wsdl
+#wsdl: http://192.168.1.106:8888/platform/sws?wsdl
 #wsdl: http://localhost:8888/platform/sws?wsdl
+wsdl: http://220.163.43.27:12080/sws?wsdl
