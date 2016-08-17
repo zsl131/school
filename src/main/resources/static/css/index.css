@@ -1,0 +1,19 @@
+.need_change_margin a {
+    margin:5px;
+}
+
+.query_school_legal {
+    border-top:1px #ddd solid; padding-top:2px;
+}
+
+.query_school_legal p {
+    line-height:26px; float:left; width:100%; margin:0px;
+}
+
+.query_school_legal b {
+    padding:0px 5px; color:#F00;
+}
+
+.query_school_legal b img {
+    width:26px;
+}

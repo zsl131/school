@@ -1,0 +1,21 @@
+server:
+  port : 8866
+
+spring:
+  freemarker:
+      cache: false
+      allowRequestOverride: false
+      allowSessionOverride: false
+      contentType: text/html
+      exposeRequestAttributes: false
+      exposeSessionAttributes: false
+      exposeSpringMacroHelpers: false
+      templateEncoding: UTF-8
+
+
+context:
+  listener:
+    classes: com.zslin.start.ApplicationStart
+
+wsdl: http://192.168.1.106:8888/platform/sws?wsdl
+#wsdl: http://localhost:8888/platform/sws?wsdl
