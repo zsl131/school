@@ -3,7 +3,7 @@
    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>驾考数据统计-云南驾考</title>
+    <title>驾考数据统计-云南驾考 V1.5</title>
     <link type="text/css" rel="stylesheet" href="bootstrap3/css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="css/index.css"/>
     <link type="text/css" rel="stylesheet" href="css/all.css"/>
