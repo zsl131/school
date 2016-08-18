@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * Created by zsl-pc on 2016/7/25.
  */
-public class JsonObjTools124<T> {
+public class JsonObjTools<T> {
 
-    public List<T> buildDatas1(String jsonStr, Class clz) {
+    public List<T> buildDatas(String jsonStr, Class clz) {
         JSONArray jsonArray = JSONArray.fromObject(jsonStr);
         return (List<T>) JSONArray.toCollection(jsonArray, clz);
     }
